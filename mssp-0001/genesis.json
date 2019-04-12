@@ -1,5 +1,5 @@
 {
-    "genesis_time": "2019-04-11T07:00:43.552512Z",
+    "genesis_time": "2019-04-11T06:50:54.776608Z",
     "chain_id": "mssp-0001",
     "consensus_params": {
       "block_size": {
@@ -22,8 +22,8 @@
           "address": "rand1hjxz2twa8ekv387dewfw4argyasxtllr2qyzfj",
           "coins": [
             {
-                "denom": "mrand",
-                "amount": "100000000000"
+              "denom": "mrand",
+              "amount": "100000000000"
             }
           ],
           "sequence_number": "0",
@@ -50,7 +50,7 @@
       },
       "staking": {
         "pool": {
-          "not_bonded_tokens": "50000000000000000",
+          "not_bonded_tokens": "0",
           "bonded_tokens": "0"
         },
         "params": {
@@ -96,52 +96,6 @@
         "signing_infos": {},
         "missed_blocks": {}
       },
-      "gentxs": [
-        {
-          "type": "auth/StdTx",
-          "value": {
-            "msg": [
-              {
-                "type": "cosmos-sdk/MsgCreateValidator",
-                "value": {
-                  "description": {
-                    "moniker": "rand-validator-1",
-                    "identity": "",
-                    "website": "",
-                    "details": ""
-                  },
-                  "commission": {
-                    "rate": "0.100000000000000000",
-                    "max_rate": "0.200000000000000000",
-                    "max_change_rate": "0.010000000000000000"
-                  },
-                  "min_self_delegation": "1",
-                  "delegator_address": "rand1hjxz2twa8ekv387dewfw4argyasxtllr2qyzfj",
-                  "validator_address": "randvalcons1ne4kh4uc5de08rq9xkl5yy4ec4kuarnc4f84c7",
-                  "pubkey": "randvalconspub1zcjduepq8va6ajd6kd5gdk4jullt8gx3htrl9v8acwstcgjm4ww3vp6st6xqm0u75u",
-                  "value": {
-                    "denom": "mrand",
-                    "amount": "1000000000"
-                  }
-                }
-              }
-            ],
-            "fee": {
-              "amount": null,
-              "gas": "200000"
-            },
-            "signatures": [
-              {
-                "pub_key": {
-                  "type": "tendermint/PubKeySecp256k1",
-                  "value": "A6lHA1tn/RWDw1OHCW3xSWbDvYNMmbI65Fo5LKFo1deD"
-                },
-                "signature": "d1fO6x2rLtWVRZGQaHz3MXRx68l7xRNb8Trm7q32FlgIT8KoHv6gbDCVvSBjk87Gg9mVSKtQSvWprGLAOFbJMQ=="
-              }
-            ],
-            "memo": "1462d84c82af585607ad5bb5c6ce3c9d3e8e356a@172.16.28.156:26656"
-          }
-        }
-      ]
+      "gentxs": null
     }
   }
