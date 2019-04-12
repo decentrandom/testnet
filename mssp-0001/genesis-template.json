@@ -1,0 +1,101 @@
+{
+    "genesis_time": "2019-04-11T06:50:54.776608Z",
+    "chain_id": "mssp-0001",
+    "consensus_params": {
+      "block_size": {
+        "max_bytes": "22020096",
+        "max_gas": "-1"
+      },
+      "evidence": {
+        "max_age": "100000"
+      },
+      "validator": {
+        "pub_key_types": [
+          "ed25519"
+        ]
+      }
+    },
+    "app_hash": "",
+    "app_state": {
+      "accounts": [
+        {
+          "address": "rand1hjxz2twa8ekv387dewfw4argyasxtllr2qyzfj",
+          "coins": [
+            {
+              "denom": "mrand",
+              "amount": "100000000000"
+            }
+          ],
+          "sequence_number": "0",
+          "account_number": "0",
+          "original_vesting": null,
+          "delegated_free": null,
+          "delegated_vesting": null,
+          "start_time": "0",
+          "end_time": "0"
+        }
+      ],
+      "auth": {
+        "collected_fees": null,
+        "params": {
+          "max_memo_characters": "256",
+          "tx_sig_limit": "7",
+          "tx_size_cost_per_byte": "10",
+          "sig_verify_cost_ed25519": "590",
+          "sig_verify_cost_secp256k1": "1000"
+        }
+      },
+      "bank": {
+        "send_enabled": true
+      },
+      "staking": {
+        "pool": {
+          "not_bonded_tokens": "0",
+          "bonded_tokens": "0"
+        },
+        "params": {
+          "unbonding_time": "259200000000000",
+          "max_validators": 100,
+          "max_entries": 7,
+          "bond_denom": "mluna"
+        },
+        "last_total_power": "0",
+        "last_validator_powers": null,
+        "validators": null,
+        "delegations": null,
+        "unbonding_delegations": null,
+        "redelegations": null,
+        "exported": false
+      },
+      "distr": {
+        "fee_pool": {
+          "community_pool": null
+        },
+        "community_tax": "0.000000000000000000",
+        "base_proposer_reward": "0.010000000000000000",
+        "bonus_proposer_reward": "0.040000000000000000",
+        "withdraw_addr_enabled": true,
+        "delegator_withdraw_infos": null,
+        "previous_proposer": "",
+        "outstanding_rewards": null,
+        "validator_accumulated_commissions": null,
+        "validator_historical_rewards": null,
+        "validator_current_rewards": null,
+        "delegator_starting_infos": null,
+        "validator_slash_events": null
+      },
+      "slashing": {
+        "params": {
+          "max_evidence_age": "120000000000",
+          "signed_blocks_window": "100",
+          "min_signed_per_window": "0.500000000000000000",
+          "downtime_jail_duration": "600000000000",
+          "slash_fraction_double_sign": "0.050000000000000000",
+          "slash_fraction_downtime": "0.010000000000000000"
+        },
+        "signing_infos": {},
+        "missed_blocks": {}
+      },
+      "gentxs": null
+    }
+  }
