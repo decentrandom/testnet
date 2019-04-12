@@ -57,7 +57,7 @@
           "unbonding_time": "259200000000000",
           "max_validators": 100,
           "max_entries": 7,
-          "bond_denom": "mluna"
+          "bond_denom": "mrand"
         },
         "last_total_power": "0",
         "last_validator_powers": null,
