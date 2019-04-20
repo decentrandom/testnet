@@ -38,4 +38,7 @@ DecentRandom의 테스트넷, 미시시피에 필요한 Genesis 관련 파일입
   - end_time : 0
 - Bank
   - send_enabled : vesting 기간이 없으므로 true
+- Staking
+  - pool
+    - not_bonded_tokens
 
