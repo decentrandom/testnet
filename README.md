@@ -1,4 +1,4 @@
-# Mississippi
+# 미시시피 테스트넷(Mississippi Testnet)
 
 DecentRandom의 테스트넷, 미시시피에 필요한 Genesis 관련 파일입니다.
 이름에 큰 의미는 없습니다. Blues 음악을 좋아해서 즉흥적으로 정했을 뿐.
@@ -40,7 +40,10 @@ DecentRandom의 테스트넷, 미시시피에 필요한 Genesis 관련 파일입
   - send_enabled : vesting 기간이 없으므로 true
 - Staking
   - pool
-    - not_bonded_tokens : 본딩 되지 않은 토큰 수량입니다. (mrand 단위입니다.)
+    - not_bonded_tokens : 본딩 되지 않은 토큰 수량입니다. (mrand 단위)
+    - bonded_tokens : 본딩된 토큰
+  - params
+    - unbonding_time : 토큰 본딩이 해제되는데 소요되는 시간 (나노 초 단위)
 
 to-do
 
