@@ -19,11 +19,11 @@
     "app_state": {
       "accounts": [
         {
-          "address": "rand1hjxz2twa8ekv387dewfw4argyasxtllr2qyzfj",
+          "address": "rand1gm45mm8utpm6t3yrgfqjvj0s8tsvygspq4gfle",
           "coins": [
             {
               "denom": "mrand",
-              "amount": "100000000000"
+              "amount": "1000000000000"
             }
           ],
           "sequence_number": "0",
