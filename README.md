@@ -9,7 +9,7 @@ DecentRandom의 테스트넷, 미시시피에 필요한 Genesis 관련 파일입
 
 ### <TESTNET_ID>/genesis.json 파일
 
-미시시피 테스트넷의 초기 상태를 규정하는 파일입니다. Cosmos SDK의 그것과 같습니다.
+미시시피 테스트넷의 초기 상태를 규정하는 파일입니다. Cosmos SDK를 사용하므로 거의 동일한 구조입니다.
 
 ##### 기본 정보
 
@@ -40,7 +40,7 @@ DecentRandom의 테스트넷, 미시시피에 필요한 Genesis 관련 파일입
   - send_enabled : vesting 기간이 없으므로 true
 - Staking
   - pool
-    - not_bonded_tokens
+    - not_bonded_tokens : 본딩 되지 않은 토큰 수량입니다. (mrand 단위입니다.)
 
 to-do
 
