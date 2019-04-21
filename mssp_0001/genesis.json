@@ -1,6 +1,6 @@
 {
     "genesis_time": "2019-04-11T06:50:54.776608Z",
-    "chain_id": "mssp-0001",
+    "chain_id": "mssp_0001",
     "consensus_params": {
       "block_size": {
         "max_bytes": "22020096",
