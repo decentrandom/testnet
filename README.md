@@ -66,6 +66,20 @@ DecentRandom의 테스트넷, 미시시피에 필요한 Genesis 관련 파일입
   - outstanding_rewards : 제네시스 단계에서는 null
   - validator_accumulated_commission : null
   - validator_historical_rewards : null
+  - validator_current_rewards : null
+  - delegator_starting_infos : null
+  - validator_slash_events : null
+  - slashing
+    - params
+      - max_evidence_age : 나노 초 단위
+      - signed_blocks_window : 100
+      - min_signed_per_window : 50%
+      - downtime_jail_duration : 나노 초 단위
+      - slash_fraction_double_sign : 5%
+      - slash_fraction_downtime : 1%
+    - siginin_infos : 사용하지 않습니다.
+    - missed_blocks : 사용하지 않습니다.
+
 
 to-do
 
