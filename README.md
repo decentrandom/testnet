@@ -30,56 +30,53 @@ DecentRandom의 테스트넷, 미시시피에 필요한 Genesis 관련 파일입
 
 - **accounts**
   - **sequence_number** : 리플레이 어택 방지용
-  - account_number : 고유 ID
-  - original_vesting : DecentRandom은 별도의 vesting 기간을 두지 않을 예정입니다.
-  - delegated_free : 초기에는 null입니다.
-  - delegated_vesting : 초기에는 null입니다.
-  - start_time : 0
-  - end_time : 0
-- bank
-  - send_enabled : vesting 기간이 없으므로 true
-- staking
-  - pool
-    - not_bonded_tokens : 본딩 되지 않은 토큰 수량입니다. (mrand 단위)
-    - bonded_tokens : 본딩된 토큰
-  - params
-    - unbonding_time : 토큰 본딩이 해제되는데 소요되는 시간 (나노 초 단위)
-    - max_validators : 최대 활성화 검증인 수
-    - max_entries : 7로 고정합니다.
-    - bond_denom : mrand 단위를 사용합니다.
-  - last_total_power : 보팅 파워의 총 량
-  - last_validato_powers : null로 고정합니다.
-  - validators : null로 고정합니다.
-  - bonds : null로 고정합니다.
-  - unbonding_delegations : null로 고정합니다.
-  - redelegations : null로 고정합니다.
-  - exported : false
-- distr
-  - fee_pool
-    - community_pool : 바운티 등을 위해 사용됩니다. mssp_0001에서는 사용하지 않습니다.
+  - **account_number** : 고유 ID
+  - **original_vesting** : DecentRandom은 별도의 vesting 기간을 두지 않을 예정입니다.
+  - **delegated_free** : 초기에는 null입니다.
+  - **delegated_vesting** : 초기에는 null입니다.
+  - **start_time** : 0
+  - **end_time** : 0
+- **bank**
+  - **send_enabled** : vesting 기간이 없으므로 true
+- **staking**
+  - **pool**
+    - **not_bonded_tokens** : 본딩 되지 않은 토큰 수량입니다. (mrand 단위)
+    - **bonded_tokens** : 본딩된 토큰
+  - **params**
+    - **unbonding_time** : 토큰 본딩이 해제되는데 소요되는 시간 (나노 초 단위)
+    - **max_validators** : 최대 활성화 검증인 수
+    - **max_entries** : 7로 고정합니다.
+    - **bond_denom** : mrand 단위를 사용합니다.
+  - **last_total_power** : 보팅 파워의 총 량
+  - **last_validato_powers** : null로 고정합니다.
+  - **validators** : null로 고정합니다.
+  - **bonds** : null로 고정합니다.
+  - **unbonding_delegations** : null로 고정합니다.
+  - **redelegations** : null로 고정합니다.
+  - **exported** : false
+- **distr**
+  - **fee_pool**
+    - **community_pool** : 바운티 등을 위해 사용됩니다. mssp_0001에서는 사용하지 않습니다.
   - **community_tax** : 커뮤니티 풀로 적립되는 tax 입니다. mssp_0001에서는 사용하지 않습니다.
-  - base_proposer_reward : 1%
-  - bonus_proposer_reward : 4%
-  - withdraw_addr_enabled : 위임자가 다른 주소로 인출할 수 있도록 합니다.
-  - delegator_withdraw_infos : 제네시스 단계에서는 null
-  - previous_proposer : 제네시스 이므로 사용하지 않습니다.
-  - outstanding_rewards : 제네시스 단계에서는 null
-  - validator_accumulated_commission : null
-  - validator_historical_rewards : null
-  - validator_current_rewards : null
-  - delegator_starting_infos : null
-  - validator_slash_events : null
-  - slashing
-    - params
-      - max_evidence_age : 나노 초 단위
-      - signed_blocks_window : 100
-      - min_signed_per_window : 50%
-      - downtime_jail_duration : 나노 초 단위
-      - slash_fraction_double_sign : 5%
-      - slash_fraction_downtime : 1%
-    - siginin_infos : 사용하지 않습니다.
-    - missed_blocks : 사용하지 않습니다.
-- gentxs
-
-to-do
-
+  - **base_proposer_reward** : 1%
+  - **bonus_proposer_reward** : 4%
+  - **withdraw_addr_enabled** : 위임자가 다른 주소로 인출할 수 있도록 합니다.
+  - **delegator_withdraw_infos** : 제네시스 단계에서는 null
+  - **previous_proposer** : 제네시스 이므로 사용하지 않습니다.
+  - **outstanding_rewards** : 제네시스 단계에서는 null
+  - **validator_accumulated_commission** : null
+  - **validator_historical_rewards** : null
+  - **validator_current_rewards** : null
+  - **delegator_starting_infos** : null
+  - **validator_slash_events** : null
+  - **slashing**
+    - **params**
+      - **max_evidence_age** : 나노 초 단위
+      - **signed_blocks_window** : 100
+      - **min_signed_per_window** : 50%
+      - **downtime_jail_duration** : 나노 초 단위
+      - **slash_fraction_double_sign** : 5%
+      - **slash_fraction_downtime** : 1%
+    - **siginin_infos** : 사용하지 않습니다.
+    - **missed_blocks** : 사용하지 않습니다.
+- **gentxs**
