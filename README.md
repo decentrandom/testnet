@@ -1,15 +1,15 @@
 # 미시시피 테스트넷(Mississippi Testnet)
 
 DecentRandom의 테스트넷, 미시시피에 필요한 Genesis 관련 파일입니다.
-이름에 큰 의미는 없습니다. Blues 음악을 좋아해서 즉흥적으로 정했을 뿐.
+(이름에 큰 의미는 없습니다. Blues 음악을 좋아해서 즉흥적으로 정했을 뿐.)
 
 ## Warnings
 
 - TerraFrom에서 '-' 기호를 제대로 인식하지 못하는 문제가 발생하여 '_' 기호로 대체하였습니다.
 
-## <TESTNET_ID>/genesis.json 파일
+## mssp_0001/genesis.json 파일
 
-미시시피 테스트넷의 초기 상태를 규정하는 파일입니다. Cosmos SDK를 사용하므로 거의 동일한 구조입니다.
+미시시피 테스트넷의 초기 상태를 규정하는 파일입니다. Cosmos SDK를 사용하므로 구조가 크게 다르지 않습니다.
 
 ### 기본 정보
 
