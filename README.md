@@ -79,7 +79,7 @@ DecentRandom의 테스트넷, 미시시피에 필요한 Genesis 관련 파일입
       - slash_fraction_downtime : 1%
     - siginin_infos : 사용하지 않습니다.
     - missed_blocks : 사용하지 않습니다.
-
+- gentxs
 
 to-do
 
