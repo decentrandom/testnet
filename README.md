@@ -58,6 +58,14 @@ DecentRandom의 테스트넷, 미시시피에 필요한 Genesis 관련 파일입
   - fee_pool
     - community_pool : 바운티 등을 위해 사용됩니다. mssp_0001에서는 사용하지 않습니다.
   - community_tax : 커뮤니티 풀로 적립되는 tax 입니다. mssp_0001에서는 사용하지 않습니다.
+  - base_proposer_reward : 1%
+  - bonus_proposer_reward : 4%
+  - withdraw_addr_enabled : 위임자가 다른 주소로 인출할 수 있도록 합니다.
+  - delegator_withdraw_infos : 제네시스 단계에서는 null
+  - previous_proposer : 제네시스 이므로 사용하지 않습니다.
+  - outstanding_rewards : 제네시스 단계에서는 null
+  - validator_accumulated_commission : null
+  - validator_historical_rewards : null
 
 to-do
 
