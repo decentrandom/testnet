@@ -7,13 +7,13 @@ DecentRandom의 테스트넷, 미시시피에 필요한 Genesis 관련 파일입
 
 - TerraFrom에서 '-' 기호를 제대로 인식하지 못하는 문제가 발생하여 '_' 기호로 대체하였습니다.
 
-## mssp_0001/randd/config.toml 파일
+## $HOME/.randd/config/config.toml 파일
 
 randd 설정 시 아래 내용을 변경하시기 바랍니다.
 
 - persistent_peers = "0c3500be1367917b527f79ec0991bfaa4ee2f021@13.58.36.38:26656"
 
-## mssp_0001/genesis.json 파일
+## $HOME/.randd/config/genesis.json 파일
 
 미시시피 테스트넷의 초기 상태를 규정하는 파일입니다. Cosmos SDK를 사용하므로 구조가 크게 다르지 않습니다.
 
