@@ -45,7 +45,7 @@ randd 설정 시 아래 내용을 변경하시기 바랍니다.
   - **send_enabled** : vesting 기간이 없으므로 true
 - **staking**
   - **pool**
-    - **not_bonded_tokens** : 본딩 되지 않은 토큰 수량입니다. (mrand 단위)
+    - **not_bonded_tokens** : 본딩 되지 않은 토큰 수량입니다. (urand 단위)
     - **bonded_tokens** : 본딩된 토큰
   - **params**
     - **unbonding_time** : 토큰 본딩이 해제되는데 소요되는 시간 (나노 초 단위)
@@ -61,8 +61,8 @@ randd 설정 시 아래 내용을 변경하시기 바랍니다.
   - **exported** : false
 - **distr**
   - **fee_pool**
-    - **community_pool** : 바운티 등을 위해 사용됩니다. mssp_0001에서는 사용하지 않습니다.
-  - **community_tax** : 커뮤니티 풀로 적립되는 tax 입니다. mssp_0001에서는 사용하지 않습니다.
+    - **community_pool** : 바운티 등을 위해 사용됩니다. 테스트넷에서는 사용하지 않습니다.
+  - **community_tax** : 커뮤니티 풀로 적립되는 tax 입니다. 테스트넷에서는 사용하지 않습니다.
   - **base_proposer_reward** : 1%
   - **bonus_proposer_reward** : 4%
   - **withdraw_addr_enabled** : 위임자가 다른 주소로 인출할 수 있도록 합니다.
