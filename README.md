@@ -1,7 +1,6 @@
-# 미시시피 테스트넷(Mississippi Testnet)
+# DecentRandom 테스트넷(Mississippi Testnet)
 
-DecentRandom의 테스트넷, 미시시피에 필요한 Genesis 관련 파일입니다.
-(이름에 큰 의미는 없습니다. Blues 음악을 좋아해서 즉흥적으로 정했을 뿐.)
+DecentRandom의 테스트넷에 필요한 자료입니다.
 
 ## Warnings
 
@@ -20,7 +19,7 @@ randd 설정 시 아래 내용을 변경하시기 바랍니다.
 ### 기본 정보
 
 - **genesis_time** : UTC 타임으로 블록체인 시작 시간을 의미합니다. 이 시간에 맞춰 제네시스 검증인은 온라인 상태에서 블록 협의 절차에 참여해야 합니다. 2/3(보팅 파워 기준)에 해당하는 제네시스 검증인이 온라인 참여해야 합니다.
-- **chain_id** : 현재 테스트넷 정보는 mssp_0001 입니다.
+- **chain_id** : 현재 테스트넷 정보는 randtest_0001 입니다.
 
 ### 협의 파라메터
 
