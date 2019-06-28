@@ -1,6 +1,6 @@
 # DecentRandom 테스트넷(Mississippi Testnet)
 
-DecentRandom의 테스트넷에 필요한 자료입니다.
+DecentRandom의 테스트넷에 필요한 자료입니다. 초기 기여자 보상이 포함된 제네시스 파일이며, 메인넷 시에는 여기에 테스트넷 보상을 포함하여 제네시스 파일로 사용합니다. 
 
 ## Warnings
 
