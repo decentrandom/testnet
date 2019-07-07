@@ -113,7 +113,7 @@
                 "type": "cosmos-sdk/MsgCreateValidator",
                 "value": {
                   "description": {
-                    "moniker": "randtest_0001",
+                    "moniker": "misskiwi",
                     "identity": "",
                     "website": "",
                     "details": ""
