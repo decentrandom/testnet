@@ -1,7 +1,7 @@
 # semi_decentrandom
 
 - ChainID : semidecentrandom
-- persistent_peers = "0c3500be1367917b527f79ec0991bfaa4ee2f021@13.58.36.38:26656"
+- persistent_peers = "ee8771644002500c148f46173564f60a827ae3db@13.58.36.38:26656"
 
 ## 특징
 
