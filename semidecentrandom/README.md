@@ -1,4 +1,4 @@
-# semi_decentrandom
+# semidecentrandom
 
 - ChainID : semidecentrandom
 - persistent_peers = "ee8771644002500c148f46173564f60a827ae3db@13.58.36.38:26656"
