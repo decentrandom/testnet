@@ -5,7 +5,7 @@
 
 ## 특징
 
-semi_decentrandom은 DecentRandom의 베타 버전입니다. 검증인의 역할을 제한한 모델이기 때문에 semi- 접두어를 붙여 사용합니다.
+semidecentrandom은 DecentRandom의 베타 버전입니다. 검증인의 역할을 제한한 모델이기 때문에 semi- 접두어를 붙여 사용합니다.
 
 ## 데몬 설정 변경
 
