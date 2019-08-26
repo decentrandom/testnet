@@ -1,7 +1,7 @@
 # semidecentrandom
 
 - ChainID : semidecentrandom
-- persistent_peers = "b4011c5aa665e0466193c94816a466fa9d72e390@167.71.167.118:26656"
+- seeds = "841bf5aaecd5bcc8222fb9fe7bb6e65f8a253770@157.230.47.126:26656"
 
 ## 특징
 
@@ -9,7 +9,7 @@ semidecentrandom은 DecentRandom의 베타 버전입니다. 검증인의 역할�
 
 ## 데몬 설정 변경
 
-$HOME/.randd/config/config.toml 파일의 persistent_peers 값을 위의 정보로 변경하시기 바랍니다.
+$HOME/.randd/config/config.toml 파일의 seeds 값을 위의 정보로 변경하시기 바랍니다.
 
 ## Faucet
 
