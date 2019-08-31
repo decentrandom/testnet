@@ -1,7 +1,7 @@
 # semidecentrandom
 
 - ChainID : semidecentrandom
-- seeds = "841bf5aaecd5bcc8222fb9fe7bb6e65f8a253770@157.230.47.126:26656"
+- seeds = "27266419cf72e6ee4b7cd8ac48b922861473b23c@157.230.222.192:26656"
 
 ## 특징
 
